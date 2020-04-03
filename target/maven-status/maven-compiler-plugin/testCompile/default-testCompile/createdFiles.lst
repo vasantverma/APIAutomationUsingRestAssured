@@ -1,0 +1,4 @@
+com\currencyapi\tests\GetAvailableCurrencies.class
+com\currencyapi\tests\ConvertCurrency.class
+com\currencyapi\tests\GetHistoricalCurrencyRate.class
+com\currencyapi\base\BaseTest.class

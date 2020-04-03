@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Currency Converter API Test Suite]">
+  <listeners>
+    <listener class-name="com.currencyapi.listenersnew.TestListener"/>
+  </listeners>
+  <test name="Currency Converter API Testcases(failed)">
+    <classes>
+      <class name="com.currencyapi.tests.GetHistoricalCurrencyRate">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.currencyapi.tests.GetHistoricalCurrencyRate -->
+      <class name="com.currencyapi.tests.GetAvailableCurrencies">
+        <methods>
+          <include name="verifyAvailableCurrenciesTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.currencyapi.tests.GetAvailableCurrencies -->
+      <class name="com.currencyapi.tests.ConvertCurrency">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.currencyapi.tests.ConvertCurrency -->
+    </classes>
+  </test> <!-- Currency Converter API Testcases(failed) -->
+</suite> <!-- Failed suite [Currency Converter API Test Suite] -->

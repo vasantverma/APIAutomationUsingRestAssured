@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Currency Converter API Test Suite" duration-ms="13162" started-at="2020-04-03T11:27:15Z" finished-at="2020-04-03T11:27:28Z">
+    <groups>
+    </groups>
+    <test name="Currency Converter API Testcases" duration-ms="13162" started-at="2020-04-03T11:27:15Z" finished-at="2020-04-03T11:27:28Z">
+      <class name="com.currencyapi.tests.GetHistoricalCurrencyRate">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.currencyapi.tests.GetHistoricalCurrencyRate@69c43e48]" name="setUp" is-config="true" duration-ms="2" started-at="2020-04-03T11:27:25Z" finished-at="2020-04-03T11:27:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHistoricalCurrencyRateTest()[pri:0, instance:com.currencyapi.tests.GetHistoricalCurrencyRate@69c43e48]" name="verifyHistoricalCurrencyRateTest" duration-ms="3390" started-at="2020-04-03T11:27:25Z" description="verify the GetHistoricalCurrencyRate endpoint" finished-at="2020-04-03T11:27:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHistoricalCurrencyRateTest -->
+      </class> <!-- com.currencyapi.tests.GetHistoricalCurrencyRate -->
+      <class name="com.currencyapi.tests.GetAvailableCurrencies">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.currencyapi.tests.GetAvailableCurrencies@3caa4757]" name="setUp" is-config="true" duration-ms="4" started-at="2020-04-03T11:27:24Z" finished-at="2020-04-03T11:27:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAvailableCurrenciesTest()[pri:0, instance:com.currencyapi.tests.GetAvailableCurrencies@3caa4757]" name="verifyAvailableCurrenciesTest" duration-ms="1436" started-at="2020-04-03T11:27:24Z" description="verify GetAvailableCurrencies endpoint" finished-at="2020-04-03T11:27:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAvailableCurrenciesTest -->
+      </class> <!-- com.currencyapi.tests.GetAvailableCurrencies -->
+      <class name="com.currencyapi.tests.ConvertCurrency">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.currencyapi.tests.ConvertCurrency@2f40a43]" name="setUp" is-config="true" duration-ms="1906" started-at="2020-04-03T11:27:15Z" finished-at="2020-04-03T11:27:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyConvertCurrencyTest()[pri:0, instance:com.currencyapi.tests.ConvertCurrency@2f40a43]" name="verifyConvertCurrencyTest" duration-ms="6101" started-at="2020-04-03T11:27:17Z" description="verify the Convert Currency api endpoint" finished-at="2020-04-03T11:27:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConvertCurrencyTest -->
+      </class> <!-- com.currencyapi.tests.ConvertCurrency -->
+    </test> <!-- Currency Converter API Testcases -->
+  </suite> <!-- Currency Converter API Test Suite -->
+</testng-results>

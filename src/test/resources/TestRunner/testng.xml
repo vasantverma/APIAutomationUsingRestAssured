@@ -2,9 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Currency Converter API Test Suite">
 	<listeners>
-		<!--  <listener class-name="com.currencyapi.listeners.ExtentReportListener" /> 
-		<listener class-name="com.currencyapi.listeners.TesultsListener" />
-		<listener class-name="com.currencyapi.listeners.TestAllureListener" /> -->
+		<listener class-name="com.currencyapi.listeners.ExtentReportListener" /> 
+		<!-- <listener class-name="com.currencyapi.listeners.TestAllureListener" /> 
+		<listener class-name="com.currencyapi.listeners.TesultsListener" />  -->
+		
 			
 	</listeners>
 	
