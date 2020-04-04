@@ -4,6 +4,7 @@ public class APIConstants
 {
   //Config file path
   public static String CONFIG_FILE_PATH=System.getProperty("user.dir")+"\\src\\main\\java\\com\\currencyapi\\config\\config.properties";
+  public static String TESTDATA_FILE_PATH=System.getProperty("user.dir")+"\\src\\main\\java\\com\\currencyapi\\testdata\\APITestData.xlsx";
   
   //Response Constants
   public static int SUCCESS_STATUS_CODE=200;

@@ -1,41 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Currency Converter API Test Suite" duration-ms="13740" started-at="2020-04-03T11:26:04Z" finished-at="2020-04-03T11:26:18Z">
+  <suite name="Default suite" duration-ms="2034" started-at="2020-04-04T13:26:05Z" finished-at="2020-04-04T13:26:07Z">
     <groups>
     </groups>
-    <test name="Currency Converter API Testcases" duration-ms="13740" started-at="2020-04-03T11:26:04Z" finished-at="2020-04-03T11:26:18Z">
-      <class name="com.currencyapi.tests.GetHistoricalCurrencyRate">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.currencyapi.tests.GetHistoricalCurrencyRate@7c469c48]" name="setUp" is-config="true" duration-ms="10" started-at="2020-04-03T16:56:15Z" finished-at="2020-04-03T16:56:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHistoricalCurrencyRateTest()[pri:0, instance:com.currencyapi.tests.GetHistoricalCurrencyRate@7c469c48]" name="verifyHistoricalCurrencyRateTest" duration-ms="2549" started-at="2020-04-03T16:56:15Z" description="verify the GetHistoricalCurrencyRate endpoint" finished-at="2020-04-03T16:56:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHistoricalCurrencyRateTest -->
-      </class> <!-- com.currencyapi.tests.GetHistoricalCurrencyRate -->
-      <class name="com.currencyapi.tests.GetAvailableCurrencies">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.currencyapi.tests.GetAvailableCurrencies@51e5fc98]" name="setUp" is-config="true" duration-ms="5" started-at="2020-04-03T16:56:13Z" finished-at="2020-04-03T16:56:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyAvailableCurrenciesTest()[pri:0, instance:com.currencyapi.tests.GetAvailableCurrencies@51e5fc98]" name="verifyAvailableCurrenciesTest" duration-ms="2827" started-at="2020-04-03T16:56:13Z" description="verify GetAvailableCurrencies endpoint" finished-at="2020-04-03T16:56:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAvailableCurrenciesTest -->
-      </class> <!-- com.currencyapi.tests.GetAvailableCurrencies -->
+    <test name="Default test" duration-ms="2034" started-at="2020-04-04T13:26:05Z" finished-at="2020-04-04T13:26:07Z">
       <class name="com.currencyapi.tests.ConvertCurrency">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.currencyapi.tests.ConvertCurrency@4e91d63f]" name="setUp" is-config="true" duration-ms="915" started-at="2020-04-03T16:56:04Z" finished-at="2020-04-03T16:56:05Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.currencyapi.tests.ConvertCurrency@12028586]" name="setUp" is-config="true" duration-ms="1084" started-at="2020-04-04T18:56:06Z" finished-at="2020-04-04T18:56:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyConvertCurrencyTest()[pri:0, instance:com.currencyapi.tests.ConvertCurrency@4e91d63f]" name="verifyConvertCurrencyTest" duration-ms="7358" started-at="2020-04-03T16:56:05Z" description="verify the Convert Currency api endpoint" finished-at="2020-04-03T16:56:13Z">
+        <test-method status="PASS" signature="verifyConvertCurrencyTest(java.lang.String)[pri:0, instance:com.currencyapi.tests.ConvertCurrency@12028586]" name="verifyConvertCurrencyTest" duration-ms="136" started-at="2020-04-04T18:56:07Z" data-provider="getDataForAmountParam" finished-at="2020-04-04T18:56:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConvertCurrencyTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.currencyapi.tests.ConvertCurrency@12028586]" name="setUp" is-config="true" duration-ms="3" started-at="2020-04-04T18:56:07Z" finished-at="2020-04-04T18:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyConvertCurrencyTest(java.lang.String)[pri:0, instance:com.currencyapi.tests.ConvertCurrency@12028586]" name="verifyConvertCurrencyTest" duration-ms="5" started-at="2020-04-04T18:56:07Z" data-provider="getDataForAmountParam" finished-at="2020-04-04T18:56:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConvertCurrencyTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.currencyapi.tests.ConvertCurrency@12028586]" name="setUp" is-config="true" duration-ms="3" started-at="2020-04-04T18:56:07Z" finished-at="2020-04-04T18:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyConvertCurrencyTest(java.lang.String)[pri:0, instance:com.currencyapi.tests.ConvertCurrency@12028586]" name="verifyConvertCurrencyTest" duration-ms="5" started-at="2020-04-04T18:56:07Z" data-provider="getDataForAmountParam" finished-at="2020-04-04T18:56:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConvertCurrencyTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.currencyapi.tests.ConvertCurrency@12028586]" name="setUp" is-config="true" duration-ms="6" started-at="2020-04-04T18:56:07Z" finished-at="2020-04-04T18:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyConvertCurrencyTest(java.lang.String)[pri:0, instance:com.currencyapi.tests.ConvertCurrency@12028586]" name="verifyConvertCurrencyTest" duration-ms="4" started-at="2020-04-04T18:56:07Z" data-provider="getDataForAmountParam" finished-at="2020-04-04T18:56:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[58.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConvertCurrencyTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.currencyapi.tests.ConvertCurrency@12028586]" name="setUp" is-config="true" duration-ms="3" started-at="2020-04-04T18:56:07Z" finished-at="2020-04-04T18:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyConvertCurrencyTest(java.lang.String)[pri:0, instance:com.currencyapi.tests.ConvertCurrency@12028586]" name="verifyConvertCurrencyTest" duration-ms="5" started-at="2020-04-04T18:56:07Z" data-provider="getDataForAmountParam" finished-at="2020-04-04T18:56:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[textValue]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConvertCurrencyTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.currencyapi.tests.ConvertCurrency@12028586]" name="setUp" is-config="true" duration-ms="4" started-at="2020-04-04T18:56:07Z" finished-at="2020-04-04T18:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyConvertCurrencyTest(java.lang.String)[pri:0, instance:com.currencyapi.tests.ConvertCurrency@12028586]" name="verifyConvertCurrencyTest" duration-ms="4" started-at="2020-04-04T18:56:07Z" data-provider="getDataForAmountParam" finished-at="2020-04-04T18:56:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[24.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConvertCurrencyTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.currencyapi.tests.ConvertCurrency@12028586]" name="setUp" is-config="true" duration-ms="4" started-at="2020-04-04T18:56:07Z" finished-at="2020-04-04T18:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyConvertCurrencyTest(java.lang.String)[pri:0, instance:com.currencyapi.tests.ConvertCurrency@12028586]" name="verifyConvertCurrencyTest" duration-ms="3" started-at="2020-04-04T18:56:07Z" data-provider="getDataForAmountParam" finished-at="2020-04-04T18:56:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8.8888855555E10]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyConvertCurrencyTest -->
       </class> <!-- com.currencyapi.tests.ConvertCurrency -->
-    </test> <!-- Currency Converter API Testcases -->
-  </suite> <!-- Currency Converter API Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

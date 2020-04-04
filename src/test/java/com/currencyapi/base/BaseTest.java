@@ -42,7 +42,7 @@ public class BaseTest
 	   } 
 	   catch (IOException e)
 	   {
-		System.out.println("Error occured while reading the properties file");
+		System.out.println("Error occured while reading the config.properties file");
 	   }
     }
    

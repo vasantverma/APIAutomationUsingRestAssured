@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.currencyapi.tests.GetHistoricalCurrencyRate">
+      <class name="com.currencyapi.tests.ConvertCurrency">
         <methods>
-          <include name="verifyHistoricalCurrencyRateTest"/>
           <include name="setUp"/>
+          <include name="verifyConvertCurrencyTest" invocation-numbers="1"/>
         </methods>
-      </class> <!-- com.currencyapi.tests.GetHistoricalCurrencyRate -->
+      </class> <!-- com.currencyapi.tests.ConvertCurrency -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
